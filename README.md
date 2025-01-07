@@ -43,7 +43,7 @@ Details of the configurations can also be found in this [file](configs/parser.py
 
 - [ESC50](datasets/esc50.py) [^esc50]  
   
-  If you want to test datasets from torchaudio, you may refer to this [site](https://pytorch.org/audio/0.9.0/datasets.html). Noted that this site is outdated since the version of torchaudio(0.9.1) is bounded to torch(1.8.1). If you want to test datasets from newer version of torchaudio, you need to update this codebase to be compatible with newer torch. You can also download the audio files and build your own dataset following the style of `ESC50` dataset if you don't want to update the codebase.  
+If you want to test datasets from torchaudio, you may refer to this [site](https://pytorch.org/audio/0.9.0/datasets.html). Noted that this site is outdated since the version of torchaudio(0.9.1) is bounded to torch(1.8.1). If you want to test datasets from newer version of torchaudio, you need to update this codebase to be compatible with newer torch. You can also download the audio files and build your own dataset following the style of `ESC50` dataset if you don't want to update the codebase.  
 
 [^esc50]: [ESC-50: Dataset for Environmental Sound Classification](https://github.com/karolpiczak/ESC-50)  
 
